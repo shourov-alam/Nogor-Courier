@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:id="@+id/swipe"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Payment_Method">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+
+
+
+        android:entries="@array/payment_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter bKash number"
+        android:id="@+id/bkash_number"
+        android:inputType="numberDecimal"
+        android:background="@drawable/backdesign"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bank account name"
+        android:id="@+id/bank_account_name"
+        android:background="@drawable/backdesign"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bank name"
+        android:id="@+id/bank_name"
+        android:background="@drawable/backdesign"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+
+        />
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Bank branch"
+    android:id="@+id/bank_branch"
+        android:background="@drawable/backdesign"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+
+    />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Account number"
+        android:id="@+id/bank_accno"
+        android:background="@drawable/backdesign"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Routing number"
+        android:id="@+id/bank_routing"
+        android:background="@drawable/backdesign"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+
+        />
+
+    <Spinner
+
+
+
+        android:entries="@array/routing_type"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner1"
+
+        />
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Save"
+      android:textColor="#fefefe"
+      android:textStyle="bold"
+      android:background="#3F51B5"
+      android:id="@+id/enter"
+      android:layout_marginTop="18dp"
+
+      />
+</LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

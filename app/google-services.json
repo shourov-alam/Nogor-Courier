@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1006052246571",
+    "firebase_url": "https://nogor-courier.firebaseio.com",
+    "project_id": "nogor-courier",
+    "storage_bucket": "nogor-courier.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006052246571:android:0919cad0b35c61c640d66e",
+        "android_client_info": {
+          "package_name": "com.sh.nogorcourier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006052246571-lqir24nl8tovr197ka1blq8nmlke30hm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sh.nogorcourier",
+            "certificate_hash": "38131113b4041a0bf851c605386dc3d2959d1c84"
+          }
+        },
+        {
+          "client_id": "1006052246571-fmapb95i2i4n63g3qv0r97c146ha3695.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu38jhop_gq1SNJpUfiG4Bw-K3M7ztQCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006052246571-fmapb95i2i4n63g3qv0r97c146ha3695.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
